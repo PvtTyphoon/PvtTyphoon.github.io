@@ -11,7 +11,7 @@ span {
 }
 
 #bgVideo {
-  align: center;
+  position: absolute;
   min-width: 100%;
   min-height: 100%;
 }
