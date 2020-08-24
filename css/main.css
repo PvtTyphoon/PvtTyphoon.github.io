@@ -8,6 +8,10 @@
   font-family: posF;
   src: url("../assets/fonts/Positive\ System.otf");
 }
+@font-face {
+  font-family: glitch;
+  src: url("../assets/fonts/glitch.ttf");
+}
 html,
 body,
 div,
@@ -1217,4 +1221,8 @@ a:hover {
   font-family: isometric;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 25px #00ffcc, 0 0 30px #00ffcc,
     0 0 40px #00ffcc, 0 0 50px #00ffcc, 0 0 60px #00ffcc;
+}
+
+.audio {
+  z-index: 1;
 }
