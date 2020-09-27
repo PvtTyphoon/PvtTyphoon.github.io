@@ -3,7 +3,7 @@
 	<meta property="og:title" content="The Union: Game Night" />
 	<meta
 		property="og:description"
-		content="There is a mong among us.  8PM BST."
+		content="There is a mong among us.  7PM BST."
 	/>
 	<meta property="og:image" content="/i/among.png" />
 	<title>The Union: Game Night</title>
@@ -158,7 +158,7 @@
 
 			function getCountdown() {
 				// find the amount of "seconds" between now and target
-				var current_date = new Date().getTime();
+				var current_date = new Date("Sep 27, 2020 17:59:59").getTime();
 				var seconds_left = (target_date - current_date) / 1000;
 
 				days = pad(parseInt(seconds_left / 86400));
