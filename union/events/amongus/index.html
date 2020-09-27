@@ -49,7 +49,7 @@
 }
 
 #countdown:after{
-	content:"GAME NIGHT GAME NIGHT GAME NIGHT";
+	content:"";
 	width: 8px;
 	height: 65px;
 	background: #444;
@@ -123,7 +123,7 @@
 </style> 
 </head> 
 <body style="background-color:#000000;">
-	<font color="black"> 
+	<font> 
     <h1 style="font-size:30px;" align="middle" font-color="white">The Union: Game Night<br>Among Us at 8PM BST</h1>
     </font>
 	<div id="countdown">
@@ -136,7 +136,7 @@
   </div>
 </div>
 <script>
-	var target_date = new Date("Sep 27, 2020 17:59:59").getTime();
+	var target_date = new Date(1601229699).getTime();
 var days, hours, minutes, seconds; // variables for time units
 
 var countdown = document.getElementById("tiles"); // get tag element
