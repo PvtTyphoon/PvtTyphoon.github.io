@@ -160,7 +160,7 @@
 				// find the amount of "seconds" between now and target
 				var now = new Date();
 				var current_date = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds()).getTime();
-				var seconds_left = (1601229599000 - new Date()) / 1000;
+				var seconds_left = (new Date() - new Date()) / 1000;
 
 				days = pad(parseInt(seconds_left / 86400));
 				seconds_left = seconds_left % 86400;
