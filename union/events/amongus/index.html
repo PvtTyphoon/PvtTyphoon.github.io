@@ -3,7 +3,7 @@
 	<meta property="og:title" content="The Union: Game Night" />
 	<meta
 		property="og:description"
-		content="There is a mong among us.  7PM BST."
+		content="There is a mong among us.  6PM BST."
 	/>
 	<meta property="og:image" content="/i/among.png" />
 	<title>The Union: Game Night</title>
@@ -132,7 +132,7 @@
 	<body style="background-color: #000000">
 		<font>
 			<h1 style="font-size: 30px" align="middle" font-color="white">
-				The Union: Game Night<br /><br />Among Us at 7PM BST
+				The Union: Game Night<br /><br />Among Us at 6PM BST.  Friday.
 			</h1>
 		</font>
 		<div id="countdown">
@@ -160,7 +160,7 @@
 				// find the amount of "seconds" between now and target
 				var now = new Date();
 				var current_date = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds()).getTime();
-				var seconds_left = (new Date() - new Date()) / 1000;
+				var seconds_left = (new Date(1601657999000) - new Date()) / 1000;
 
 				days = pad(parseInt(seconds_left / 86400));
 				seconds_left = seconds_left % 86400;
