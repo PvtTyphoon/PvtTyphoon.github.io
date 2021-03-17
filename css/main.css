@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 @font-face {
   font-family: isometric;
-  src: url("../assets/fonts/RUSwolfenstein.ttf");
+  src: url("../assets/fonts/isometric.otf");
 }
 @font-face {
   font-family: posF;
@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: glitch;
-  src: url("../assets/fonts/isometric.otf");
+  src: url("../assets/fonts/glitch.ttf");
 }
 html,
 body,
@@ -1196,7 +1196,7 @@ a:hover {
 }
 
 .name {
-  font-family: glitch;
+  font-family: isometric;
   animation: glow 2s ease-in-out infinite alternate;
 }
 
@@ -1213,14 +1213,14 @@ a:hover {
 
 .titles {
   font-family: isometric;
-  text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff02c8, 0 0 22px #ff02c8,
-    0 0 10px #ff02c8, 0 0 20px #ff02c8, 0 0 250px #ff02c8;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 25px #ff02c8, 0 0 30px #ff02c8,
+    0 0 40px #ff02c8, 0 0 50px #ff02c8, 0 0 60px #ff02c8;
 }
 
 .links {
   font-family: isometric;
-  text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00ffcc, 0 0 22px #00ffcc,
-    0 0 25px #00ffcc, 0 0 30px #00ffcc, 0 0 35px #00ffcc;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 25px #00ffcc, 0 0 30px #00ffcc,
+    0 0 40px #00ffcc, 0 0 50px #00ffcc, 0 0 60px #00ffcc;
 }
 
 .audio {
