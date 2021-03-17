@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: glitch;
-  src: url("../assets/fonts/RUSwolfenstein.ttf");
+  src: url("../assets/fonts/isometric.otf");
 }
 html,
 body,
@@ -1212,7 +1212,7 @@ a:hover {
 }
 
 .titles {
-  font-family: isometric;
+  font-family: glitch;
   text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff02c8, 0 0 22px #ff02c8,
     0 0 10px #ff02c8, 0 0 20px #ff02c8, 0 0 250px #ff02c8;
 }
