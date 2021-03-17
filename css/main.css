@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 @font-face {
   font-family: isometric;
-  src: url("../assets/fonts/isometric.otf");
+  src: url("../assets/fonts/RUSwolfenstein.ttf");
 }
 @font-face {
   font-family: posF;
@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: glitch;
-  src: url("../assets/fonts/glitch.ttf");
+  src: url("../assets/fonts/RUSwolfenstein.ttf");
 }
 html,
 body,
