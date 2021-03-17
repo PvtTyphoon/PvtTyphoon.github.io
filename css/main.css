@@ -1196,7 +1196,7 @@ a:hover {
 }
 
 .name {
-  font-family: isometric;
+  font-family: glitch;
   animation: glow 2s ease-in-out infinite alternate;
 }
 
@@ -1212,7 +1212,7 @@ a:hover {
 }
 
 .titles {
-  font-family: glitch;
+  font-family: isometric;
   text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff02c8, 0 0 22px #ff02c8,
     0 0 10px #ff02c8, 0 0 20px #ff02c8, 0 0 250px #ff02c8;
 }
